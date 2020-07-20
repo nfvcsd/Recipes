@@ -25,7 +25,7 @@
             <key>Arguments</key>
             <dict>
                 <key>re_pattern</key>
-                <string>SB([0-9]{4})</string>
+                <string>\SB([0-9]{4})</string>
                 <key>result_output_var_name</key>
                 <string>FOLDER</string>
                 <key>url</key>
