@@ -53,7 +53,7 @@
                 <key>url</key>
                 <string>%DOWNLOAD_URL%/SB%FOLDER%/SecureTest%FILE%-signed.dmg</string>
                 <key>filename</key>
-                <string>%FILE%-signed.dmg</string>
+                <string>SecureTest%FILE%-signed.dmg</string>
             </dict>
         </dict>
         <dict>
