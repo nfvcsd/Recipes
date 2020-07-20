@@ -19,8 +19,12 @@
             <array>
                 <string>testing</string>
             </array>
+            <key>Category</key>
+            <string>Testing Applications</string>
             <key>description</key>
             <string>IAELPA21 lockdown browser</string>
+            <key>developer</key>
+            <string<IADOE</string>
             <key>display_name</key>
             <string>IAELPA21</string>
             <key>name</key>
