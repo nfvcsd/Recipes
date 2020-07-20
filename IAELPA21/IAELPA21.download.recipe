@@ -51,9 +51,9 @@
             <key>Arguments</key>
             <dict>
                 <key>url</key>
-                <string>%DOWNLOAD_URL%/%FOLDER%/%FILE%</string>
+                <string>%DOWNLOAD_URL%/SB%FOLDER%/SecureTest%FILE%-signed.dmg</string>
                 <key>filename</key>
-                <string>%FILE%</string>
+                <string>SecureTest%FILE%-signed.dmg</string>
             </dict>
         </dict>
         <dict>
