@@ -10,10 +10,6 @@
     <dict>
         <key>NAME</key>
         <string>ELPA21</string>
-        <key>SEARCH_URL</key>
-        <string>https://iowaelpa21.portal.cambiumast.com/secure-browsers.stml</string>
-        <key>DOWNLOAD_URL</key>
-        <string>https://files.portal.cambiumast.com/SecureTest/SecureBrowsers</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.9</string>
@@ -25,36 +21,16 @@
             <key>Arguments</key>
             <dict>
                 <key>re_pattern</key>
-                <string>SB([0-9]{4})</string>
+                <string>https://files\.portal\.cambiumast\.com/SecureTest/SecureBrowsers/SB[0-9]{4}/SecureTest[0-9]{2}\.[0-9]\-[0-9]{4}\-[0-9]{2}\-[0-9]{2}\-signed\.dmg</string>
                 <key>result_output_var_name</key>
-                <string>FOLDER</string>
+                <string>url</string>
                 <key>url</key>
-                <string>%SEARCH_URL%</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>URLTextSearcher</string>
-            <key>Arguments</key>
-            <dict>
-                <key>re_pattern</key>
-                <string>SecureTest([0-9]{2}\.[0-9]\-[0-9]{4}\-[0-9]{2}\-[0-9]{2})\-signed.dmg</string>
-                <key>result_output_var_name</key>
-                <string>FILE</string>
-                <key>url</key>
-                <string>%SEARCH_URL%</string>
+                <string>https://iowaelpa21.portal.cambiumast.com/secure-browsers.stml</string>
             </dict>
         </dict>
         <dict>
             <key>Processor</key>
             <string>URLDownloader</string>
-            <key>Arguments</key>
-            <dict>
-                <key>url</key>
-                <string>%DOWNLOAD_URL%/SB%FOLDER%/SecureTest%FILE%-signed.dmg</string>
-                <key>filename</key>
-                <string>SecureTest%FILE%-signed.dmg</string>
-            </dict>
         </dict>
         <dict>
             <key>Processor</key>
