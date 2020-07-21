@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads IAELPA21 disk image and imports into Munki.
-</string>
+    <string>Downloads IAELPA21 disk image and imports into Munki.</string>
     <key>Identifier</key>
     <string>com.github.nfv.munki.IAELPA21</string>
     <key>Input</key>
