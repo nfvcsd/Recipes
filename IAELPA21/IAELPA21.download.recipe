@@ -21,11 +21,11 @@
             <key>Arguments</key>
             <dict>
                 <key>re_pattern</key>
-                <string>https://files\.portal\.cambiumast\.com/SecureTest/SecureBrowsers/SB[0-9]{4}/SecureTest[0-9]{2}\.[0-9]\-[0-9]{4}\-[0-9]{2}\-[0-9]{2}\-signed\.dmg</string>
+                <string>https://sb\.portal\.cambiumast\.com/geturls?clientName=secureTest&amp;operatingSystem=macOS</string>
                 <key>result_output_var_name</key>
                 <string>url</string>
                 <key>url</key>
-                <string>https://sb.portal.cambiumast.com/geturls?clientName=secureTest&amp;operatingSystem=macOS</string>
+                <string>https://iowaelpa21.portal.cambiumast.com/Supported_Browsers/Iowa/Content/Portal_OSs/Sec_Browsers/macOS.htm</string>
             </dict>
         </dict>
         <dict>
