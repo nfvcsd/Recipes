@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest version of TestNav and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.nstrauss.pkg.TestNav</string>
+    <string>com.github.nfv.pkg.TestNav</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
