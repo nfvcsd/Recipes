@@ -32,7 +32,7 @@
     <key>MinimumVersion</key>
     <string>1.4.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.nstrauss.pkg.TestNav</string>
+    <string>com.github.nfv.pkg.TestNav</string>
     <key>Process</key>
     <array>
         <dict>
